@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+    padding: 26px 0;
+}
+
+.header-inner {
+    @include container
+}
+
+.header-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+

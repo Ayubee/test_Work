@@ -1,0 +1,51 @@
+.menu {
+    @media (max-width: $mobile-max) {
+       display: none;
+
+      }
+
+    ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        // padding-left: 50%;
+        @media (max-width: $mobile-max) {
+            display: block;
+     
+           }
+    }
+
+        li {
+            margin-left: 30px;
+            @media (max-width: $mobile-max){
+                text-align: center;
+                margin: 20px 0;
+            }
+        }
+
+        a {
+            color: #444444;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            text-decoration: none;
+        }
+}
+
+.Btn {
+    display: none;
+    @media (max-width: $mobile-max) {
+        display: block;
+        background-image: url('../img/burger.svg');
+        width: 45px;
+        height: 30px;
+        border: none;
+        margin-left: 75px;
+        font-size: 0;
+        background-color: rgba(0, 0, 0, 0);
+        background-repeat: no-repeat;
+        background-position: center;
+       }
+}
+

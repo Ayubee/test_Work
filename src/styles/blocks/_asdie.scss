@@ -1,0 +1,23 @@
+.aside {
+    width: 100%;
+    background-image: url('../img/aside_icon.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aside-test {
+    display: flex;
+}
+
+// .aside-wrap{
+//     display: flex;
+// }
+
+.aside-thumb{
+    width: 576px;
+    height: 576px;
+}
+
+.aside-inner {
+    display: flex;
+}
