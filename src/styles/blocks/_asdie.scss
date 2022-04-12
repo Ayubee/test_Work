@@ -20,4 +20,54 @@
 
 .aside-inner {
     display: flex;
+    align-items: center;
+}
+
+.aside-title {
+    width: 45%;
+}
+
+.aside-subject {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #E6B939;
+}
+.aside-caption {
+    color:#575445;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.asdie-lead {
+    color: #575445;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.aside-div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    p{
+        color: #575445;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+   
+    };
+   
+}
+
+.aside-icon {
+    width: 25px;
+    height: 25px;
+    margin-left: 35px;
 }
