@@ -1,0 +1,33 @@
+.order {
+    width: 100%;
+}
+
+.order-holder {
+    width: 100%;
+    align-items: center;
+}
+
+.order-box {
+    // width: 50%;
+    margin: auto;
+    padding: auto;
+}
+.wrap {
+    @include wrap;
+    text-align: center
+}
+
+.order-title {
+    @include title;
+    // display: block;
+    margin: auto;
+    text-align: center
+    
+}
+
+.order-subtitle {
+    @include subtitle;
+    width: 50%;
+    margin:20px auto;
+    text-align: center;
+}

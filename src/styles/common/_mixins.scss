@@ -2,3 +2,28 @@
     max-width: 1278px;
     margin: 0 auto;
   }
+
+@mixin wrap {
+  margin: 0;
+  color: #E6B939;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400
+  
+}
+
+@mixin title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+@mixin subtitle {
+  width: 60%;
+  margin: 0;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+}

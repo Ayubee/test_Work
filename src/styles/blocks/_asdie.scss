@@ -20,14 +20,17 @@
 
 .aside-inner {
     display: flex;
+    
     align-items: center;
 }
 
 .aside-title {
     width: 45%;
+    
 }
 
 .aside-subject {
+    margin: 0;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -35,6 +38,7 @@
     color: #E6B939;
 }
 .aside-caption {
+    margin: 0;
     color:#575445;
     font-family: 'Roboto';
     font-style: normal;
