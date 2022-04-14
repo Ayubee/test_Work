@@ -1,0 +1,10 @@
+.order-subcontainer {
+    background-color: black;
+    display: flex;
+    align-items: flex-start;
+}
+
+.order-slogan {
+ color: white ;
+ @include title
+}
