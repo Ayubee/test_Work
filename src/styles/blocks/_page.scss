@@ -1,0 +1,66 @@
+.page-container {
+    display: flex;
+    padding: 50px;
+}
+
+.Accessories {
+    background-image: url('../img/1.2.png');
+    width: 379px;
+    height: 473px;
+}
+
+.page-active {
+    width: 379px;
+    height: 473px;
+    margin-left: auto;
+    border-radius: 15px;
+    text-align:center ;
+    background-repeat: no-repeat;
+    background-position: center;    
+    background-size: cover;
+    
+
+    p{
+        color: #575445;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    h2{
+        color: #575445;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+    }
+    
+}
+.Apparel {
+    background-image: url('../img/2.png');
+  
+}
+
+.ClimbingGear {
+    background-image: url('../img/3.png');
+}
+
+.Headwear {
+    background-image: url('../img/4.png');
+}
+
+.HikingGear {
+    background-image: url('../img/5.png');
+}
+
+.Jackets {
+    background-image: url('../img/6.png');
+    align-items: center;
+}
+.page-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+

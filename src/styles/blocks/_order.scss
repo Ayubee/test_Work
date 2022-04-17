@@ -1,14 +1,16 @@
 .order {
     width: 100%;
+    align-items: center;
 }
 
 .order-holder {
     width: 100%;
+    justify-content: center;
+    text-align: center;
     align-items: center;
 }
 
 .order-box {
-    // width: 50%;
     margin: auto;
     padding: auto;
 }
