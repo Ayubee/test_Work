@@ -1,12 +1,12 @@
 {
   "name": "student-scss-pack",
   "version": "1.0.0",
-  "description": "Стартовый репозиторий для студентов",
+  "description": "test_Work",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
   },
-  "author": "Kirill Demidov <kademidov@gmail.com>",
+  "author": "Ayubeey",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.27.7",
