@@ -4,4 +4,11 @@ $(document).ready(function(){
         $('.menu').slideToggle();
       });
 
+
+    $('.Accessories').on('click', function(){
+
+        $('#result').slideToggle();
+      });
+
+
 });

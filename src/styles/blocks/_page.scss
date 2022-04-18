@@ -35,10 +35,18 @@
         font-weight: 400;
         font-size: 28px;
     }
-    
+    &:hover{
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        animation:alternate-reverse;
+    }
 }
+
+
+
 .Apparel {
     background-image: url('../img/2.png');
+
+   
   
 }
 
@@ -62,5 +70,9 @@
     display: flex;
     align-items: center;
     justify-content: center;    
+}
+
+#result {
+    display: none;
 }
 
