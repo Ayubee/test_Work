@@ -7,9 +7,13 @@
     background-image: url('../img/1.2.png');
     width: 379px;
     height: 473px;
+    &:hover{
+        box-shadow: 0 0 10px rgba(95, 158, 160, .5);
+    }
 }
 
 .page-active {
+    padding-top: 50px;
     width: 379px;
     height: 473px;
     margin:auto;
@@ -35,36 +39,47 @@
         font-weight: 400;
         font-size: 28px;
     }
-    &:hover{
-        box-shadow: 0 0 10px rgba(0,0,0,0.5);
-        animation:alternate-reverse;
-    }
+    
 }
 
 
 
 .Apparel {
     background-image: url('../img/2.png');
-
+    &:hover{
+        box-shadow: 0 0 10px rgba(0 ,206,209, .5);
+    }
    
   
 }
 
 .ClimbingGear {
     background-image: url('../img/3.png');
+    &:hover{
+        box-shadow: 0 0 10px rgba(105, 105, 105,0.5);
+    }
 }
 
 .Headwear {
     background-image: url('../img/4.png');
+    &:hover{
+        box-shadow: 0 0 10px rgba(64, 224, 208,0.7);
+    }
 }
 
 .HikingGear {
     background-image: url('../img/5.png');
+    &:hover{
+        box-shadow: 0 0 10px rgba(85, 107, 47,0.5);
+    }
 }
 
 .Jackets {
     background-image: url('../img/6.png');
     align-items: center;
+    &:hover{
+        box-shadow: 0 0 10px rgba(119, 136, 153,0.5);
+    }
 }
 .page-div {
     display: flex;
@@ -82,7 +97,7 @@
         font-style: normal;
         font-weight: 400;
         font-size: 36px;
-        margin: 0;
+        margin: 20px 0 10px 0 ;
     }
 }
 
@@ -102,6 +117,7 @@
 }
 
 .page-wrap-text{
+    margin: 200px 0 20px 0px;
     color: #E6B939;
     font-family: 'Poppins';
     font-style: normal;
@@ -127,3 +143,4 @@
 #Jackets {
     display: none;
 }
+
