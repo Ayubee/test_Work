@@ -12,7 +12,7 @@
 .page-active {
     width: 379px;
     height: 473px;
-    margin-left: auto;
+    margin:auto;
     border-radius: 15px;
     text-align:center ;
     background-repeat: no-repeat;
@@ -72,7 +72,58 @@
     justify-content: center;    
 }
 
+.page-text {
+    display: block;
+    text-align: center;
+    // width: 50%;
+    h3{
+        color: #575445;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        margin: 0;
+    }
+}
+
+.page-subtext {
+    color: #575445;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.page-wrap {
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    
+}
+
+.page-wrap-text{
+    color: #E6B939;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 #result {
     display: none;
 }
-
+#Apparel {
+    display: none;
+}
+#ClimbingGear {
+    display: none;
+}
+#Headwear {
+    display: none;
+}
+#HikingGear {
+    display: none;
+}
+#Jackets {
+    display: none;
+}
