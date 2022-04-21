@@ -1,0 +1,95 @@
+content {
+    width: 100%;
+}
+
+.content-title {
+    width: 90%;
+    margin-left: 80px;
+    padding: 20px;
+}
+
+.content-caption {
+    padding: 10 0 10px 0;
+    color: #E6B939;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.content-slogan {
+    padding: 10px 0 10px 0 ;
+    color: #575445;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.content-subtext {
+    width: 25%;
+    color: #575445;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.content-avatar {
+    display: flex;
+}
+
+.content-container {
+    display: flex;
+}
+
+.avatar-div {
+    margin-top: -15px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-subcontainer {
+    margin: 0 auto 0 auto;
+}
+
+
+.subcontainer-text {
+    margin: 10px 10px;
+    color: #575445;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.content-avatar {
+    width: 80%;
+    align-items: center;
+
+
+}
+
+.avatart-subtext {
+    display: block;
+    padding: 10 0 10px 0;
+    color: #E6B939;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.avatar-data {
+    margin-top: -10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.avatar-text {
+    margin-left: 10px;
+}
+

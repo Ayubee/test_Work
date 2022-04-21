@@ -1,0 +1,46 @@
+.section {
+    width: 100%;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-wrap {
+    color: #E6B939;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.section-h3 {
+    width: 90%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.section-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.section-pic {
+    margin-left: 50px;
+}
+
+.section-title {
+    margin-top: 15%;
+
+    width: 20%;
+}
+.section-subbutton {
+    display: flex;
+    margin-left: 61%;
+    margin-top: -8%;
+}
