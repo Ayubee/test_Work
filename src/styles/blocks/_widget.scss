@@ -16,6 +16,10 @@
     height: 50px;
     margin-left: 55px;
 
+    @media (max-width: $mobile-max) {
+        width: 40px; height: 40px;
+       }
+
     &:hover{
         background-color: black;
         border-radius: 50px;
@@ -45,12 +49,16 @@
     display: none;
     align-items: flex-end;
     margin: 385px 0 0 0;
+
+    @media (max-width: $mobile-max) {
+        margin: 0;
+       }
     
 }
 
 .widget-text{
     color: #575445;
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -66,8 +74,17 @@
     background-color: black;
     display: flex;
 
+    @media (max-width: $mobile-max) {
+        display: block;
+        width: 50%;
+        height: 100%;
+       }
+
     img{
         margin-left: 15px;
+        @media (max-width: $mobile-max) {
+            margin-top: 20px;
+           }
     }
     p{
         margin-left: 15px;
@@ -76,6 +93,9 @@
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
+        @media (max-width: $mobile-max) {
+            margin-bottom: 10px;
+           }
     }
     
     }
@@ -86,12 +106,16 @@
     background-color: #2F4F4F;
     background-image: url('../img/Combined-Shape.svg');
     text-align: center;
+
 }
 
 .widget-subcontainer {
     width: 30%;
     margin: auto;
     padding-top: 10%;
+    @media (max-width: $mobile-max) {
+        width: 100%;
+       }
 
     h3{
         color: #E6B939;
@@ -100,13 +124,17 @@
         font-style: normal;
         font-weight: 400;
         font-size: 36px;
+
+        @media (max-width: $mobile-max) {
+            font-size: 30px;
+           }
     }
 }
 
 .text-shop {
     color: #fff;
     margin: 0;
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -114,10 +142,15 @@
 
 .widget-title {
     color: white;
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+
+    @media (max-width: $mobile-max) {
+        width: 70%;
+        margin: auto;
+       }
 }
 
 .widget-button {

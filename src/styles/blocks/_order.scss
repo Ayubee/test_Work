@@ -1,6 +1,10 @@
 .order {
     width: 100%;
     align-items: center;
+
+    @media (max-width: $mobile-max) {
+        margin-top: 15%;
+       }
 }
 
 .order-holder {
@@ -16,14 +20,21 @@
 }
 .wrap {
     @include wrap;
-    text-align: center
+    text-align: center;
+    @media (max-width: $mobile-max) {
+        font-size: 15px;
+       }
 }
 
 .order-title {
     @include title;
     // display: block;
     margin: auto;
-    text-align: center
+    text-align: center;
+
+    @media (max-width: $mobile-max) {
+        font-size: 25px;
+       }
     
 }
 

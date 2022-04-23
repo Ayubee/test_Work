@@ -5,16 +5,26 @@
   background-repeat: no-repeat;
   background-position: center;    
   background-size: cover;
+
+
+  @media (max-width: $mobile-max) {
+    text-align: center;
+   }
 }
 
 .promo-wrap {
   width: 100%;
-  padding-top: 240px;
+  padding-top: 240px 
+   
 }
 
 .promo-title {
   width: 50%;
   margin-left: 140px;
+  @media (max-width: $mobile-max) {
+    width: 100%;
+    margin: auto;
+   }
 }
 
 .promo-subject{
@@ -22,7 +32,12 @@
   color: #E6B939;
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 400
+  font-weight: 400;
+  font-size: 20px;
+
+  @media (max-width: $mobile-max) {
+    font-size: 30px;
+   }
 }
 
 .promo-caption {
@@ -32,15 +47,25 @@
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
+  @media (max-width: $mobile-max) {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 35px;
+   }
 }
 
 .promo-subtitle{
   width: 60%;
   margin: 0;
-  font-family: 'Poppins';
+  font-family: 'Poppins',sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
+
+  @media (max-width: $mobile-max) {
+    margin: 20px auto;
+
+   }
 }
 
 .active {

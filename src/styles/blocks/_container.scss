@@ -1,48 +1,9 @@
-// .order-subcontainer {
-//     width: 100%;
-//     display: flex;
-//     margin-top: 71px;
-//     align-items: center;
-//     text-align: center;
-// }
-// .order-container {
-//     align-items:flex-start;
-//     text-align: center;
-//     width: 30%;
-// }
-
-// .subcontainer {
-//     margin-left: auto;
-//     width: 100%;
-//     align-items:center;
-//     display: flex;
-//     margin-top: 110px;
-//     text-align: center
-// }
-
-// .order-slogan {
-//     margin: 0;
-//     font-family: 'Roboto';
-//     font-style: normal;
-//     font-weight: 400;
-//     font-size: 20px;
- 
-// }
-// .order-text {
-//     text-align: center;
-//     font-family: 'Poppins';
-//     font-style: normal;
-//     font-weight: 400;
-//     font-size: 17px;
-// }
-
 .order-subcontainer {
     margin-top: 75px;
     display: flex;
     @media (max-width: $mobile-max) {
         display: block;
         width: 100%;
- 
        }
 }
 
@@ -52,11 +13,12 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    margin:10px 10px;
 }
 
 .order-text {
     color: #575465;;
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -64,9 +26,14 @@
 
 .order-container {
     margin: auto;
+    padding-top: 20px;
     width: 20%;
     text-align: center;
     align-items: center;
+    @media (max-width: $mobile-max) {
+        width: 70%;
+        margin-top: 20px;
+       }
 }
 
 .subcontainer {
@@ -76,6 +43,7 @@
     @media (max-width: $mobile-max) {
         display: block;
         width: 100%;
+        margin: 0;
  
        }
 }

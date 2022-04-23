@@ -1,6 +1,11 @@
 .page-container {
     display: flex;
     padding: 50px;
+
+    @media (max-width: $mobile-max) {
+        display: block;
+        padding: 50px 0 5px 0 ;
+       }
 }
 
 .Accessories {
@@ -22,6 +27,10 @@
     background-repeat: no-repeat;
     background-position: center;    
     background-size: cover;
+
+    @media (max-width: $mobile-max) {
+        margin-bottom: 55px;
+       }
     
 
     p{
@@ -90,7 +99,9 @@
 .page-text {
     display: block;
     text-align: center;
-    // width: 50%;
+    @media (max-width: $mobile-max) {
+        width: 100%;
+       }
     h3{
         color: #575445;
         font-family: 'Roboto';
@@ -98,6 +109,10 @@
         font-weight: 400;
         font-size: 36px;
         margin: 20px 0 10px 0 ;
+
+        @media (max-width: $mobile-max) {
+            font-size: 30px;
+           }
     }
 }
 
@@ -107,12 +122,19 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    @media (max-width: $mobile-max) {
+        width: 50%;
+        margin: auto;
+       }
 }
 
 .page-wrap {
     margin: auto;
     width: 40%;
     text-align: center;
+    @media (max-width: $mobile-max) {
+        width: 100%;
+       }
     
 }
 
@@ -123,6 +145,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+
+    @media (max-width: $mobile-max) {
+        font-size: 18px;
+        margin-top: 50%;
+       }
 }
 
 #result {

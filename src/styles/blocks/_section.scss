@@ -5,6 +5,10 @@
 .section-container {
     display: flex;
     justify-content: space-around;
+
+    @media (max-width: $mobile-max) {
+        display: block;
+       }
 }
 
 .section-wrap {
@@ -13,6 +17,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
+
+    @media (max-width: $mobile-max) {
+       margin-top: 50px;
+       text-align: center;
+       }
 }
 
 .section-h3 {
@@ -21,6 +30,11 @@
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
+
+    @media (max-width: $mobile-max) {
+        width: 100%;
+        text-align: center;
+       }
 }
 
 .section-text {
@@ -28,16 +42,31 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+
+    @media (max-width: $mobile-max) {
+        margin-top: 20px;
+       }
 }
 
 .section-pic {
     margin-left: 50px;
+
+    img {
+        @media (max-width: $mobile-max) {
+            width: 300px;
+            height: 300px;
+           }
+    }
 }
 
 .section-title {
     margin-top: 15%;
-
     width: 20%;
+
+    @media (max-width: $mobile-max) {
+        width: 70%;
+        margin: auto;
+       }
 }
 .section-subbutton {
     display: flex;
