@@ -12,6 +12,7 @@
 
     @media (max-width: $mobile-max) {
         display: block;
+        padding-left: 30%;
        }
 }
 
@@ -121,6 +122,7 @@
     display: none;
 
     @media (max-width: $mobile-max) {
+        width: 100%;
         margin-top: 20px;
         display: block;
         text-align: center;

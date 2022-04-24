@@ -58,11 +58,13 @@ content {
 .content-container {
     display: flex;
     @media (max-width: $mobile-max) {
+        width: 100%;
         display: block;
        }
 }
 
 .avatar-div {
+    width: 70%;
     margin-top: -15px;
     margin-left: 60px;
     display: flex;
@@ -115,7 +117,7 @@ content {
 
 .content-img {
     @media (max-width: $mobile-max) {
-        width: 100%;
+        width: 90%;
         height: 200px;
        }
 }
