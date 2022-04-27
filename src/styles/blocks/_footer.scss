@@ -110,6 +110,8 @@
     !important;
 
     @media (max-width: $mobile-max) {
+        width: 50px;
+        height: 40px;
         top: -47px;
         margin-left: 100%;
         border: none;
@@ -134,4 +136,8 @@
         display: none
         !important;
        }
+}
+
+.form {
+    overflow: hidden;
 }
